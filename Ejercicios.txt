@@ -1,0 +1,16 @@
+Primer Programa
+	Plantear un programa que ejecute dos hilos de programa al mismo tiempo, para esto se requiere que uno de los hilos realice un conteo regresivo temporizado partiendo de un número establecido por el usuario, la temporización entre cada ejecución del hilo debe ser de 600 ms, el otro hilo, debe mostrar las letras del alfabeto partiendo desde la A hasta una letra ingresada por el usuario, este hilo debe estar temporizado a 500 ms. Ambos hilos deben detenerse cuando el hilo numero 1 encuentre la letra ingresada por el usuario.
+	Al ejecutar el programa en consola se debe evidenciar la salida entregada por ambos hilos, al final de su ejecución cada hilo debe mostrar el mensaje “Trabajo del hilo [nombre] terminado”.
+
+Segundo Programa
+	Programa en Java que implementa un servidor de información y un cliente que interactúa con él. Este ejemplo usa sockets para la comunicación entre el cliente y el servidor, que son conceptos fundamentales en networking.
+	
+	Estructura del Programa
+		1.	Servidor de Información:
+			o	Escucha conexiones en un puerto específico.
+			o	Mantiene una base de datos en memoria sobre varios productos e información asociada.
+			o	Permite a los clientes consultar los productos disponibles. 
+		2.	Cliente:
+			o	Se conecta al servidor.
+			o	Envía solicitudes de consulta de productos.
+			o	Recibe respuestas del servidor y muestra la información al usuario.
